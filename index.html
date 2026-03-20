@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Market</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+                <img src="images/Transparent Logo.png" alt="United Market & Cigs Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container-fluid hero-content">
+            <h1 class="display-4 fw-bold">United Market</h1>
+            <p class="lead">Your one-stop shop for everyday essentials!</p>
+            <a href="#services" class="btn btn-primary btn-lg">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- About / Welcome Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Welcome to United Market</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h3>Who We Are</h3>
+                    <p>Welcome to United Market Convenience Store, your trusted neighborhood retailer for over 15 years. We pride ourselves on offering quality products at competitive prices with exceptional customer service.</p>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to provide convenient, affordable shopping experience for the entire community. Whether you need groceries, snacks, beverages, or everyday essentials, we've got you covered 24/7.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center mb-2">
+                    <h3 class="text-center mb-3">Find Us</h3>
+                    <p class="map-address">1970 Lancaster Dr NE, Salem, OR 97305</p>
+                </div>
+                <div class="col-12">
+                    <div class="ratio ratio-4x3 map-embed">
+                        <iframe src="https://www.google.com/maps?q=1970+Lancaster+Dr+NE,+Salem,+OR+97305&output=embed" title="Store Location" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Menu Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Products & Services</h2>
+            <div class="row">
+                <!-- Card 1: Lottery -->
+                <div class="col-md-4 mb-4">
+                    <a href="#detail-lottery" class="card-link" style="text-decoration: none; color: inherit;">
+                        <div class="card h-100 shadow-sm service-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-ticket-alt fa-3x text-info mb-3"></i>
+                                <h5 class="card-title">Lottery</h5>
+                                <p class="card-text">Play your favorite lottery games and scratchers for a chance to win big prizes.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 2: Snacks & Beverages -->
+                <div class="col-md-4 mb-4">
+                    <a href="#detail-snacks" class="card-link" style="text-decoration: none; color: inherit;">
+                        <div class="card h-100 shadow-sm service-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-ice-cream fa-3x text-success mb-3"></i>
+                                <h5 class="card-title">Snacks & Beverages</h5>
+                                <p class="card-text">Your favorite snacks, drinks, and energy beverages available 24/7 for quick refreshment.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 3: Cigs, Nicotine Pouches, & Chew -->
+                <div class="col-md-4 mb-4">
+                    <a href="#detail-health" class="card-link" style="text-decoration: none; color: inherit;">
+                        <div class="card h-100 shadow-sm service-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-smoking fa-3x text-danger mb-3"></i>
+                                <h5 class="card-title">Cigs, Nicotine Pouches & Chew</h5>
+                                <p class="card-text">Tobacco products, Zyn pouches, and chew selections from top brands like Marlboro, Camel, Grizzly and Copenhagen.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 4: Magazines & News -->
+                <div class="col-md-4 mb-4">
+                    <a href="#detail-magazines" class="card-link" style="text-decoration: none; color: inherit;">
+                        <div class="card h-100 shadow-sm service-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-newspaper fa-3x text-warning mb-3"></i>
+                                <h5 class="card-title">Magazines & News</h5>
+                                <p class="card-text">Latest magazines, newspapers, and reading materials to keep you informed and entertained.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 5: Gas -->
+                <div class="col-md-4 mb-4">
+                    <a href="#detail-gas" class="card-link" style="text-decoration: none; color: inherit;">
+                        <div class="card h-100 shadow-sm service-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-gas-pump fa-3x text-info mb-3"></i>
+                                <h5 class="card-title">Gas</h5>
+                                <p class="card-text">Fuel up with our competitive gas prices and convenient pump service.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 6: Hot Deli -->
+                <div class="col-md-4 mb-4">
+                    <a href="#detail-deli" class="card-link" style="text-decoration: none; color: inherit;">
+                        <div class="card h-100 shadow-sm service-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-utensils fa-3x text-secondary mb-3"></i>
+                                <h5 class="card-title">Hot Deli</h5>
+                                <p class="card-text">Fresh hot foods, sandwiches, and ready-to-eat meals prepared daily for convenience.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Details Sections -->
+    <!-- Lottery Details -->
+    <section id="detail-lottery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Lottery & Gaming</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Our lottery and gaming section offers the latest scratch-off tickets, lottery draws, and gaming products. We feature:</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Multi-state lottery tickets with daily drawings</li>
+                        <li class="list-group-item">Scratch-off tickets with various prize amounts</li>
+                        <li class="list-group-item">Regular promotions and special jackpots</li>
+                        <li class="list-group-item">These are the available tickets: </li>
+                    </ul>
+
+                    <div class="table-responsive mt-4">
+                        <table class="table table-bordered align-middle lottery-table">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th scope="col">Game #</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Top Prize</th>
+                                    <th scope="col">Top Prizes Unclaimed</th>
+                                    <th scope="col">Percent Sold</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1560</td>
+                                    <td>Tidal Treasure</td>
+                                    <td>$20</td>
+                                    <td>$250,000</td>
+                                    <td>0</td>
+                                    <td>98%</td>
+                                </tr>
+                                <tr>
+                                    <td>1576</td>
+                                    <td>Phoenix Crossword</td>
+                                    <td>$20</td>
+                                    <td>$175,000</td>
+                                    <td>1</td>
+                                    <td>52%</td>
+                                </tr>
+                                <tr>
+                                    <td>1580</td>
+                                    <td>Cash Game</td>
+                                    <td>$10</td>
+                                    <td>$100,000</td>
+                                    <td>0</td>
+                                    <td>97%</td>
+                                </tr>
+                                <tr>
+                                    <td>1602</td>
+                                    <td>Raining $50 or $100</td>
+                                    <td>$10</td>
+                                    <td>$100</td>
+                                    <td>779</td>
+                                    <td>98%</td>
+                                </tr>
+                                <tr>
+                                    <td>1611</td>
+                                    <td>Stop the Presses Crossword</td>
+                                    <td>$10</td>
+                                    <td>$100,000</td>
+                                    <td>0</td>
+                                    <td>97%</td>
+                                </tr>
+                                <tr>
+                                    <td>1613</td>
+                                    <td>Aces</td>
+                                    <td>$10</td>
+                                    <td>$100,000</td>
+                                    <td>1</td>
+                                    <td>97%</td>
+                                </tr>
+                                <tr>
+                                    <td>1616</td>
+                                    <td>$50 or $100 Bonanza</td>
+                                    <td>$10</td>
+                                    <td>$100</td>
+                                    <td>8855</td>
+                                    <td>62%</td>
+                                </tr>
+                                <tr>
+                                    <td>1617</td>
+                                    <td>Wild Side</td>
+                                    <td>$10</td>
+                                    <td>$100,000</td>
+                                    <td>1</td>
+                                    <td>95%</td>
+                                </tr>
+                                <tr>
+                                    <td>1567</td>
+                                    <td>Lucky Spot</td>
+                                    <td>$5</td>
+                                    <td>$50,000</td>
+                                    <td>1</td>
+                                    <td>95%</td>
+                                </tr>
+                                <tr>
+                                    <td>1568</td>
+                                    <td>Joker's Wild Poker</td>
+                                    <td>$5</td>
+                                    <td>$50,000</td>
+                                    <td>0</td>
+                                    <td>99%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4"><a href="#services" class="btn btn-primary">Back to Services</a></p>
+        </div>
+    </section>
+
+    <!-- Snacks & Beverages Details -->
+    <section id="detail-snacks" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Snacks & Beverages</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Our snacks and beverages selection includes a wide variety of options available 24/7:</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Chips, crackers, and savory snacks</li>
+                        <li class="list-group-item">Candy, chocolate, and sweet treats</li>
+                        <li class="list-group-item">Soft drinks, juices, and water</li>
+                        <li class="list-group-item">Energy drinks and sports beverages</li>
+                        <li class="list-group-item">Coffee and hot beverage options</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="mt-4"><a href="#services" class="btn btn-primary">Back to Services</a></p>
+        </div>
+    </section>
+
+    <!-- Cigs, Nicotine Pouches, & Chew Details -->
+    <section id="detail-health" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Cigs, Nicotine Pouches, & Chew</h2>
+            <p class="mb-4">Top tobacco & nicotine brands available today. Tap each category for full offerings.</p>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="product-section mb-4">
+                        <div class="section-title">Cigarettes</div>
+                        <div class="badge bg-danger mb-2">Marlboro</div>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">Red</li>
+                            <li class="list-group-item">Gold</li>
+                            <li class="list-group-item">Silver</li>
+                            <li class="list-group-item">Light</li>
+                            <li class="list-group-item">Menthol</li>
+                        </ul>
+                        <div class="badge bg-warning text-dark mb-2">Camel</div>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">Red</li>
+                            <li class="list-group-item">Blue</li>
+                            <li class="list-group-item">Wides</li>
+                            <li class="list-group-item">Crush</li>
+                            <li class="list-group-item">Crush Menthol</li>
+                        </ul>
+                        <div class="badge bg-success mb-2">American Spirit</div>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">Full-Bodied</li>
+                            <li class="list-group-item">Blue</li>
+                            <li class="list-group-item">Orange</li>
+                            <li class="list-group-item">Yellow</li>
+                            <li class="list-group-item">Turquoise</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-section mb-4">
+                        <div class="section-title">Nicotine Pouches (Zyn)</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">3mg: Chill, Mint, Wintergreen, Spearmint, Citrus, Coffee</li>
+                            <li class="list-group-item">6mg: Chill, Mint, Wintergreen, Spearmint, Cinnamon</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-section mb-4">
+                        <div class="section-title">Chew</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Grizzly Long Cut: Mint, Wintergreen, Dark Wintergreen, Straight</li>
+                            <li class="list-group-item">Grizzly Pouches: Mint, Wintergreen, Natural, Southern Blend</li>
+                            <li class="list-group-item">Copenhagen Long Cut: Mint, Wintergreen, Straight, Southern Blend</li>
+                            <li class="list-group-item">Copenhagen Pouches: Mint, Wintergreen, Long Cut</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4"><a href="#services" class="btn btn-primary">Back to Services</a></p>
+        </div>
+    </section>
+
+    <!-- Magazines & News Details -->
+    <section id="detail-magazines" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Magazines & News</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Stay informed and entertained with our extensive selection of reading materials:</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Daily and weekly newspapers from major publishers</li>
+                        <li class="list-group-item">Magazine subscriptions and single issues</li>
+                        <li class="list-group-item">Comics and graphic novels</li>
+                        <li class="list-group-item">Travel guides and maps</li>
+                        <li class="list-group-item">Specialty and niche publications</li>
+                    </ul>
+
+                    <h4 class="mt-4 mb-3">Local News Sources</h4>
+                    <div class="local-news-links">
+                        <a href="https://reader.theoregonian.com/t/storefront/daily_edition" target="_blank" class="news-logo-link" title="The Oregonian">
+                            <img src="images/The Oregonian.png" alt="The Oregonian" class="news-logo">
+                        </a>
+                        <a href="https://www.statesmanjournal.com/" target="_blank" class="news-logo-link" title="Statesman Journal">
+                            <img src="images/statesman journal.png" alt="Statesman Journal" class="news-logo">
+                        </a>
+                        <a href="https://www.keizertimes.com/" target="_blank" class="news-logo-link" title="Keizer Times">
+                            <img src="images/Keizertimes.png" alt="Keizer Times" class="news-logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4"><a href="#services" class="btn btn-primary">Back to Services</a></p>
+        </div>
+    </section>
+
+    <!-- Gas Details -->
+    <section id="detail-gas" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Gas Station</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Our fueling station offers convenience and competitive prices for all your fuel needs:</p>
+                    
+                    <!-- Gas Station Price Board Sign -->
+                    <div class="gas-sign-container mt-4">
+                        <div class="gas-sign-header">FUEL</div>
+                        <div class="gas-prices">
+                            <div class="gas-item">
+                                <div class="fuel-label">REGULAR</div>
+                                <div class="fuel-price">$4.79</div>
+                            </div>
+                            <div class="gas-item">
+                                <div class="fuel-label">PLUS</div>
+                                <div class="fuel-price">$5.09</div>
+                            </div>
+                            <div class="gas-item">
+                                <div class="fuel-label">PREMIUM</div>
+                                <div class="fuel-price">$5.27</div>
+                            </div>
+                            <div class="gas-item">
+                                <div class="fuel-label diesel">DIESEL</div>
+                                <div class="fuel-price">$5.79</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="list-group list-group-flush mt-4">
+                        <li class="list-group-item">Regular, plus, and premium gasoline</li>
+                        <li class="list-group-item">Diesel fuel for trucks and commercial vehicles</li>
+                        <li class="list-group-item">Competitive pricing and loyalty rewards</li>
+                        <li class="list-group-item">Well-maintained pumps and clean facilities</li>
+                        <li class="list-group-item">Pay-at-pump and in-store payment options</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="mt-4"><a href="#services" class="btn btn-primary">Back to Services</a></p>
+        </div>
+    </section>
+
+    <!-- Hot Deli Details -->
+    <section id="detail-deli" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Hot Deli</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <h3 class="mb-3">Menu Items</h3>
+                    <div class="deli-menu">
+                        <div class="menu-category">
+                            <h5 class="menu-category-title">Burritos</h5>
+                            <p class="menu-special-note"><strong>2 for $2.50</strong></p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Beef and Bean Burrito — $1.49</li>
+                                <li class="list-group-item">Cheese and Bean Burrito — $1.49</li>
+                                <li class="list-group-item">BBQ Burrito — $1.49</li>
+                            </ul>
+                        </div>
+
+                        <div class="menu-category mt-4">
+                            <h5 class="menu-category-title">Other Items</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Crispito — $1.49</li>
+                                <li class="list-group-item">Pizza Stick — $1.49</li>
+                                <li class="list-group-item">Corn Dogs — $1.49</li>
+                                <li class="list-group-item">Jalapeno Corndog — $1.49</li>
+                                <li class="list-group-item">Roller Bites — $1.69</li>
+                                <li class="list-group-item">Jojos — $2.49</li>
+                                <li class="list-group-item">Chicken and Jojos — $4.99</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4"><a href="#services" class="btn btn-primary">Back to Services</a></p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Get In Touch</h2>
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>United Market</h5>
+                    <p>&copy; 2026 United Market. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h5>Follow Us</h5>
+                    <a href="https://facebook.com" class="text-white me-3" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="https://twitter.com" class="text-white me-3" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="https://instagram.com" class="text-white me-3" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="https://linkedin.com" class="text-white" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Smooth Scrolling -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+
+</html>
